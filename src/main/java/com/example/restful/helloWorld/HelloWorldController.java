@@ -1,5 +1,6 @@
-package com.example.restful;
+package com.example.restful.helloWorld;
 
+import com.example.restful.HelloWorldBean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
