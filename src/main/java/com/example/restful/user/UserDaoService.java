@@ -1,9 +1,12 @@
 package com.example.restful.user;
 
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+@Service
 public class UserDaoService {
 
     // 예제의 편의를 위해 DB의 역할은 List로 대체한다.
